@@ -1,0 +1,5 @@
+# mocha.opts
+--exit
+--ui bdd
+--require chai/register-expect
+tests/**/*.test.js --recursive
