@@ -1,0 +1,36 @@
+{
+  "name": "@marcomaturana/cnpj",
+  "version": "1.0.0",
+  "description": "a helper module for the cnpj usage with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn install && mocha --opts tests/mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-maturana/javascript-cnpj.git"
+  },
+  "keywords": [
+    "cnpj",
+    "documentos",
+    "documents",
+    "validate",
+    "validacao"
+  ],
+  "author": "Marco Aurelio Maturana Silveira <marco.maturana.ro@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marco-maturana/javascript-cnpj/issues"
+  },
+  "homepage": "https://github.com/marco-maturana/javascript-cnpj#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
