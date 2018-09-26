@@ -4,6 +4,7 @@
   "description": "a helper module for the cnpj usage with javascript",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext .js ./",
     "test": "yarn install && mocha --opts tests/mocha.opts"
   },
   "repository": {
